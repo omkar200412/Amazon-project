@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="Amazon.css">
+</head>
+
+<body class="body">
+  <div class="hade">
+    
+      <div class="logo">
+        <img class="logo" src="images/amazon-logo-white.png" alt="images/amazon-mobile-logo">
+      </div>
+      
+    
+
+    
+   
+
+   <div>
+     <input class="search" type="search" placeholder="search">
+      
+       <div>
+        <img class="icon" src="images/search-icon.png" alt="">
+        </div>    
+     </div>
+     <div>
+      <a href="http://127.0.0.1:5500/order.html">
+        <p class="text">Returns</p>
+      <p class="and"><b>& Oreders</b></p>
+      </a>
+     </div>
+     <div>
+      
+      <img class="img" src="images/cart-icon.png" alt="">
+    
+      <p class="cart"><b>Cart</b></p>
+      <div class="zero"><b>00</b></div>
+    </div>
+  </div>
+
+
+  <div class="box">
+    <div>
+      <img class="poto" src="images/Screenshot 2024-04-06 141710.png" alt="">
+      <p class="hoodi">Plain Hooded Fleece </p>
+      <p class="hoodi1">Sweatshirt</p>
+      <img class="rating" src="images/rating-45.png" alt="">
+       <p class="number">
+        317
+      </p>
+      <p class="doller"><b>$24.00</b></p>
+      <div>
+        
+        <button id="addToCart" class="btn">Add to Cart</button>
+      </div>
+
+    </div>
+
+
+
+    <div class="wrapper">
+      <span class="minus">-</span>
+      <span class="num">01</span>
+      <span class="plus">+</span>
+    </div>
+
+    <div class="second-row">
+      <img class="second-rowimg" src="images/Screenshot 2024-04-06 141848.png" alt="">
+      <p class="Blackout">Blackout Curtains Set 4-Pack - Beige</p>
+      <img class="rating" src="images/rating-45.png" alt="">
+       <p class="number">
+        232
+      </p>
+      <p class="doller"><b>$45.99</b></p>
+
+      <div  class="wrapper">
+        <span class="minus">-</span>
+        <span class="num">01</span>
+        <span class="plus">+</span>
+      </div>
+
+      <button  class="btn">Add to Cart</button>
+
+    </div>
+    <div class="third-row">
+      <img class="second-rowimg" src="images/Screenshot 2024-04-06 141920.png" alt="">
+      <p class="Blackout">Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter</p>
+      <img class="rating" src="images/rating-5.png" alt="">
+       <p class="number">
+        864
+      </p>
+      <p class="doller"><b>$30.74</b></p>
+
+      <div class="wrapper">
+        <span class="minus">-</span>
+        <span class="num">01</span>
+        <span class="plus">+</span>
+      </div>
+
+      <button class="btn">Add to Cart</button>
+
+
+    </div>
+    <div class="four-row">
+      <img class="second-rowimg" src="images/Screenshot 2024-04-06 141936.png" alt="">
+      <p class="Blackout">Ultra Soft Tissue 2-Ply - 18 Box</p>
+      <img class="rating" src="images/rating-4.png" alt="">
+       <p class="number">
+        215
+      </p>
+      <p class="doller"><b>$22.00</b></p>
+
+      <div class="wrapper">
+        <span class="minus">-</span>
+        <span class="num">01</span>
+        <span class="plus">+</span>
+      </div>
+
+      <button class="btn">Add to Cart</button>
+
+    </div>
+    <div class="fifth-row">
+      <img class="second-rowimg" src="images/Screenshot 2024-04-06 141719.png" alt="">
+      <p class="Blackout">Luxury Towel Set - Graphite Gray</p>
+      <img class="rating" src="images/rating-45.png" alt="">
+       <p class="number">
+        144
+      </p>
+      <p class="doller"><b>$35.99</b></p>
+
+      <div class="wrapper">
+        <span class="minus">-</span>
+        <span class="num">01</span>
+        <span class="plus">+</span>
+      </div>
+
+      <button class="btn">Add to Cart</button>
+    </div>
+   
+   
+  </div>
+  
+
+
+
+
+
+
+
+
+  <script>
+   // Function to setup counter for each product
+function setupCounter(wrapper) {
+  const plus = wrapper.querySelector(".plus");
+  const minus = wrapper.querySelector(".minus");
+  const num = wrapper.querySelector(".num");
+
+  let quantity = 1;
+
+  plus.addEventListener("click", () => {
+    quantity++;
+    quantity = (quantity < 10) ? "0" + quantity : quantity;
+    num.innerText = quantity;
+  });
+
+  minus.addEventListener("click", () => {
+    if (quantity > 1) {
+      quantity--;
+      quantity = (quantity < 10) ? "0" + quantity : quantity;
+      num.innerText = quantity;
+    }
+  });
+}
+
+
+const wrappers = document.querySelectorAll(".wrapper");
+wrappers.forEach(wrapper => {
+  setupCounter(wrapper);
+});
+
+
+const addToCartButtons = document.querySelectorAll(".btn");
+addToCartButtons.forEach(button => {
+  button.addEventListener("click", function() {
+    const wrapper = this.parentNode;
+    const quantity = wrapper.querySelector(".num").innerText; 
+    addToCart(quantity); 
+  });
+});
+
+
+function addToCart(quantity) {
+  const cartQuantity = document.querySelector(".zero");
+  cartQuantity.innerText = quantity; 
+}
+
+    
+  </script>
+  
+</body>
+</html>

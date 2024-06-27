@@ -1,0 +1,300 @@
+
+.body{
+  margin: 0px;
+}
+
+.hade{
+  background-color: rgb(19, 25, 33);
+  height: 10%;
+}
+
+.search{
+  width: 65%;
+  height: 69%;
+  position: relative;
+  left: 17%;
+  top: -35px;
+  }
+
+.logo{
+  height: 78%;
+  width: 30%;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  cursor: pointer;
+}
+.icon{
+  position: absolute;
+  left: 998px;
+ top: 1.6%;
+ height: 6.7%;
+ width: 3%;
+ background-color: #febd69;
+ cursor: pointer;
+ 
+}
+.text{
+  position: absolute;
+  left: 1080px;
+  top: -0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.and{
+  position: absolute;
+  left: 1080px;
+  top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.img{
+ position: absolute;
+ left: 1160px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+}
+.cart{
+  position: absolute;
+ left: 1210px;
+ top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.zero{
+  position: absolute;
+ left: 1186px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+ color: #febd69;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+/* body conten like images and all */
+.box{
+  position: relative;
+  width: 19%;
+  height: 90%;
+  border:  solid #999;
+  border-top:2px  black ;
+}
+.poto{
+  position: absolute;
+  top: 1%;
+  left: -7%;
+  width: 230px;
+  height: 200px;
+  border-color: 10% black;
+}
+.hoodi{
+  position: absolute;
+  top: 44%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+.hoodi1{
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+.rating{
+  position: absolute;
+  top: 58%;
+  height: 5%;
+  width: 44%;
+  left: 9%;
+}
+.number{
+  position: absolute;
+  top: 55.8%;
+  left: 56%;
+  color: #017cb6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.doller{
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 10px;
+  font-size: 17px;
+}
+.wrapper{
+  position: relative;
+  top: 75%;
+  left: 10%;
+  height: 40px;
+  width: 100px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #febd69;
+  border-radius:12px ;
+}
+.wrapper span{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 50;
+  cursor: pointer;
+}
+.wrapper span.num{
+  font-size: 20px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+}
+.btn{
+  position: absolute;
+  top: 90%;
+  border-radius:12px;
+  left: 4%;
+  cursor: pointer;
+  border: none;
+  background-color:  #ffd814;
+  font-size: 13.33;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  width: 90%;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.second-row{
+  position: relative;
+  top: -8%;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+  
+  border-top:2px  black ;
+  
+}
+.second-rowimg{
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width: 230px;
+  height: 200px;
+  border-color: 10% black;
+}
+.Blackout{
+  position: absolute;
+  top: 44%;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+.third-row{
+  position: relative;
+  top: -108.4%;
+  left: 200%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+  
+  border-top:2px  black ;
+
+}
+.four-row{
+  position: relative;
+  top: -208.9%;
+  left: 300%;
+  width: 110%;
+  height: 100%;
+  border: 1px solid #999;
+  
+  border-top:2px  black ;
+}
+.fifth-row{
+  position: relative;
+  top: -309.2%;
+  left: 410.4%;
+  width: 113%;
+  height: 100%;
+  border: 1px solid #8f8f8f;
+ 
+  border-top:2px  black ;
+}
+.btn:hover { 
+  color: black; 
+  background-color:#ffffff; 
+  cursor: pointer; 
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .logo{
+    height: 78%;
+    width: 40%;
+    left: 6px;
+  }
+
+
+  .text{
+    position: absolute;
+    left: 462px;
+  
+  }
+  .and{
+    position: absolute;
+    left: 462px;
+    top: 3%;
+    
+  }
+  .search{
+    width: 47%;
+    height: 69%;
+    position: relative;
+    left: 23%;
+  }
+  .icon{
+    position: absolute;
+    left: 415px;
+    top: 1.5%;
+    width: 5%;
+  }
+  .img{
+    position: absolute;
+    left: 660px;
+  }
+  .zero{
+    position: absolute;
+    left: 520px;
+
+  }
+  .cart{
+    position: absolute;
+   left: 588px;
+  }
+
+}

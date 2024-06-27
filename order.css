@@ -1,0 +1,293 @@
+.body{
+  margin: 0px;
+}
+
+.hade{
+  background-color: rgb(19, 25, 33);
+  height: 10%;
+}
+
+.search{
+  width: 65%;
+  height: 69%;
+  position: relative;
+  left: 17%;
+  top: -35px;
+  }
+
+.logo{
+  height: 78%;
+  width: 30%;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  cursor: pointer;
+}
+.icon{
+  position: absolute;
+  left: 998px;
+ top: 1.5%;
+ height: 6.7%;
+ width: 3%;
+ background-color: #febd69;
+ cursor: pointer;
+ 
+}
+.text{
+  position: absolute;
+  left: 1080px;
+  top: -0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.and{
+  position: absolute;
+  left: 1080px;
+  top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.img{
+ position: absolute;
+ left: 1160px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+}
+.cart{
+  position: absolute;
+ left: 1210px;
+ top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.zero{
+  position: absolute;
+ left: 1186px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+ color: #febd69;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+/* body conten like order summery */
+
+.div{
+  width: 100%;
+  border-radius: 12px;
+  height: 15%;
+  position: relative;
+  background-color: #f0f2f2;
+  border: 1px solid rgb(185, 181, 181);
+}
+.main{
+  width: 830px;
+  position: relative;
+  height: 580px;
+  left: 17%;
+  border-radius: 12px;
+  
+  border: 1px solid rgb(185, 181, 181); 
+  }
+  .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-left: 17vw;
+   
+    
+  }
+  .placed ,.april {
+    position: relative;
+    left:4%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .april {
+    position: relative;
+    left:4%;
+    top: -11px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .total, .paise{
+    position: relative;
+    left:22%;
+    top: -68px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .paise{
+    position: absolute;
+    top: 30%;
+
+  }
+  .tracking{
+    position: absolute;
+    left:60%;
+    top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .num-1{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .photos1{
+    width: 100%;
+    top: -39%;
+  right: 1px;
+  height: 180%;
+  position: relative;
+  background-color: white;
+  border: 1px solid rgb(185, 181, 181);
+  }
+  .photos2{
+  width: 100%;
+  top: -39%;
+  right: 1px;
+  height: 180%;
+  position: relative;
+  background-color: white;
+  border: 1px solid rgb(185, 181, 181);
+  }
+  .photos3{
+    width: 100%;
+    right: 1px;
+    top: -39%;
+    height: 180%;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(185, 181, 181);
+    }
+    .jak{
+      position: absolute;
+      left: 0%;
+      top: 0%;
+      bottom: 0%;
+      height: 100%;
+      width: 22%;
+    }
+    .para{
+      position: absolute;
+      left: 22%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .para1{
+      margin-top: 5%;
+      position: absolute;
+      left: 22%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .buy-again{
+      margin-top: 11%;
+      position: absolute;
+      left: 22.7%;
+      width: 4%;
+      height: 20%;
+      margin: 0px, 15px, 0px, 0px;
+      cursor: pointer;
+
+    }
+    .again{
+      margin-top: 5%;
+      position: absolute;
+      left: 22%;
+      width: 20%;
+      height: 25%;
+      top: 30%;
+      padding: 1px,6px;
+      background-color: #ffd814;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    }
+    .btn-traking{
+      margin-top: 5%;
+      position: absolute;
+      left: 72%;
+      width: 25%;
+      height: 23%;
+      border-radius: 12px;
+      border: none;
+      box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn-traking:hover { 
+        color: black; 
+        background-color:#ffd814; 
+        cursor: pointer; 
+    }
+    .again:hover { 
+      color: black; 
+      background-color:#ffffff; 
+      cursor: pointer; 
+  }
+  
+  
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .logo{
+    height: 78%;
+    width: 40%;
+    left: 6px;
+  }
+
+
+  .text{
+    position: absolute;
+    left: 462px;
+  
+  }
+  .and{
+    position: absolute;
+    left: 462px;
+    top: 3%;
+    
+  }
+  .search{
+    width: 47%;
+    height: 69%;
+    position: relative;
+    left: 23%;
+  }
+  .icon{
+    position: absolute;
+    left: 415px;
+    top: 1.5%;
+    width: 5%;
+  }
+  .img{
+    position: absolute;
+    left: 540px;
+  }
+  .zero{
+    position: absolute;
+   left: 565px;
+  }
+  .cart{
+    position: absolute;
+   left: 588px;
+  }
+
+}

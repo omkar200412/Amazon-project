@@ -1,0 +1,200 @@
+
+.body{
+  margin: 0px;
+}
+
+.hade{
+  background-color: rgb(19, 25, 33);
+  height: 10%;
+}
+
+.search{
+  width: 65%;
+  height: 69%;
+  position: relative;
+  left: 17%;
+  top: -35px;
+  }
+
+.logo{
+  height: 78%;
+  width: 30%;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  cursor: pointer;
+}
+.icon{
+  position: absolute;
+  left: 1012px;
+ top: 1.6%;
+ height: 6.7%;
+ width: 3%;
+ background-color: #febd69;
+ cursor: pointer;
+ 
+}
+.text{
+  position: absolute;
+  left: 1080px;
+  top: -0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.and{
+  position: absolute;
+  left: 1080px;
+  top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.img{
+ position: absolute;
+ left: 1160px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+}
+.cart{
+  position: absolute;
+ left: 1210px;
+ top: 3%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.zero{
+  position: absolute;
+ left: 1186px;
+ top: 2%;
+ height: 40px;
+ width: 50;
+ color: #febd69;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+.box{
+ margin-left: 17%;
+}
+.tissue{
+  margin-top: -1%;
+  width: 15%;
+  height: 30%;
+}
+.ultra{
+  margin-top: -9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.Quantity{
+  margin-top: -10;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  }
+.on{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.underline{
+  font-size: 18px;
+  color: #017cb6;
+}
+.track{
+  height: 5%;
+  margin-top: 40px;
+  width: 79%;
+  margin-left: 0%;
+  border-color: black;
+  background-color: #017cb6;
+  border-radius: 12px;
+}
+.names{
+  background-color: #febd69;
+  width: 79%;
+  height: 4%;
+
+}
+.Delivered{
+  margin-left: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 72%;
+  left: 4%;
+}
+.Shipped{
+  margin-left: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 72%;
+  
+}
+.Preparing{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: -7;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .logo{
+    height: 78%;
+    width: 40%;
+    left: 6px;
+  }
+
+
+  .text{
+    position: absolute;
+    left: 462px;
+  
+  }
+  .and{
+    position: absolute;
+    left: 462px;
+    top: 3%;
+    
+  }
+  .search{
+    width: 47%;
+    height: 69%;
+    position: relative;
+    left: 23%;
+  }
+  .icon{
+    position: absolute;
+    left: 415px;
+    top: 1.5%;
+    width: 5%;
+  }
+  .img{
+    position: absolute;
+    left: 540px;
+  }
+  .zero{
+    position: absolute;
+   left: 565px;
+  }
+  .cart{
+    position: absolute;
+   left: 588px;
+  }
+
+}
